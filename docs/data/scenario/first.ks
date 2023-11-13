@@ -47,7 +47,7 @@
 
 桃太郎は成長し鬼ヶ島へ鬼退治しに行った。[l][r]
 
-サル・キジ・イヌが現れた。
+サル・キジ・イヌが現れた。[l][r]
 
 [link target=*tag_onigasima] →キビ団子をあげる [endlink][r]
 [link target=*tag_oni] →追い払う [endlink][r]
@@ -59,7 +59,7 @@
 
 [bg storage=monogatari_momotarou.jpg time=500]
 
-サル・キジ・イヌが仲間に加わり、鬼を退治した。
+サル・キジ・イヌが仲間に加わり、鬼を退治した。[l][r]
 
 【 GAME COMPLETE 】[l][cm]
 
@@ -73,7 +73,7 @@
 
 仲間が一人もいない桃太郎は鬼に敗北した。[l][r]
 
-数日後、おじいさんとおばあさんは鬼に殺された。
+数日後、おじいさんとおばあさんは鬼に殺された。[l][r]
 
 【 GAME OVER 】[l][cm]
 
