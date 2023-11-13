@@ -1,46 +1,80 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="怒れセリヌンティウス"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「桃太郎」[l][r]
 
-メロスは激怒した。[l][r]
+おじいさんは山へ芝刈りに、おばあさんは川へ洗濯に行きました。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+おばあさんは川で桃を拾い、家に持って帰りました。[l][r]
 
-(中略)[l][r]
+おばあさんとおじいさんは拾った桃割ってを食べるか捨てるか話し合いました。[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_sleep] →割る [endlink][r]
+[link target=*tag_run] →捨てる [endlink][r]
 [s]
 
 *tag_sleep
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=tannjyou.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+桃太郎が生まれた。[l][r]
+桃太郎は成長し鬼退治に向かった。[r]
 
-【 BAD END 】[l][cm]
+【 TO BE CONTINUE 】[l][cm]
 
-[jump target=*start]
+[jump target=*tag_nakama]
 
 *tag_run
 
-[bg storage=run.jpg time=500]
+[bg storage=oni.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+数日後、鬼の襲来によりおじいさんとおばあさんは殺された。[r]
 
-【 GOOD END 】[l][cm]
+【 GAME OVER 】[l][cm]
+
+[jump target=*start]
+
+*tag_nakama
+
+[cm]
+
+桃太郎は成長し鬼ヶ島へ鬼退治しに行った。[l][r]
+
+サル・キジ・イヌが現れた。
+
+[link target=*tag_onigasima] →キビ団子をあげる [endlink][r]
+[link target=*tag_oni] →追い払う [endlink][r]
+[s]
+
+*tag_onigasima
+
+[cm]
+
+[bg storage=monogatari_momotarou.jpg time=500]
+
+サル・キジ・イヌが仲間に加わり、鬼を退治した。
+
+【 GAME COMPLETE 】[l][cm]
+
+[jump target=*start]
+
+*tag_oni
+
+[cm]
+
+[bg storage=oni.jpg time=500]
+
+仲間が一人もいない桃太郎は鬼に敗北した。[l][r]
+
+数日後、おじいさんとおばあさんは鬼に殺された。
+
+【 GAME OVER 】[l][cm]
 
 [jump target=*start]
